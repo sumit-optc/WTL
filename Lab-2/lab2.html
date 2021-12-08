@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HTML Lab 1</title>
+		<link rel="stylesheet" href="lab2.css" />
+	</head>
+
+	<body>
+		<!-- <input type="button" id="img_jisoo" value="jisoo"></input> -->
+		<main>
+			<div class="navbar">
+				<nav class="navbar">
+					<a href="..\Lab 1\lab1.html" target="_blank" id="id1-test">Lab 1</a> |
+					<a href="/css/" target="_blank">Menu 2</a> |
+					<a href="/js/" target="_blank">Menu 3</a> |
+					<a href="/python/" target="_blank">Menu 4</a>
+				</nav>
+			</div>
+
+			<!-- <img src="jisooPin.png" alt="jisoo picture" id="img_jisoo" /> -->
+
+			<div class="form_container">
+				<form
+					action="lab2.php"
+					method="post"
+					target="_blank"
+					name="myForm"
+					onsubmit="return(validate());"
+				>
+					<table class="center">
+						<tr>
+							<td><lable for="fname" class="fname">First Name: </lable></td>
+							<td>
+								<input
+									type="text"
+									name="fname"
+									id="fname"
+									placeholder="Enter your First Name here"
+								/>
+							</td>
+						</tr>
+
+						<tr>
+							<td><label for="gender">Gender</label></td>
+							<td>
+								<input type="radio" name="gender" id="male" />
+								<label for="male">Male</label>
+								<input type="radio" name="gender" id="female" />
+								<label for="female">Female</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td><label for="address">Address: </label></td>
+							<td><input type="text" name="address" id="address" /></td>
+						</tr>
+
+						<tr>
+							<td><label for="username">Email ID: </label></td>
+							<td><input type="email" name="username" id="email" /></td>
+						</tr>
+
+						<tr>
+							<td><lable for="password">Password: </lable></td>
+							<td>
+								<input
+									type="password"
+									name="password"
+									placeholder="Enter password here"
+								/>
+							</td>
+						</tr>
+
+						<tr>
+							<td><label for="birthday">Birthday: </label></td>
+							<td><input type="date" id="birthday" name="birthday" /></td>
+						</tr>
+
+						<tr>
+							<td><label for="phno">Phone Number: </label></td>
+							<td>
+								<input type="number" name="phno" id="phno" maxlength="10" />
+							</td>
+						</tr>
+
+						<tr>
+							<td class="reset"><input type="reset" value="Reset" /></td>
+							<td class="submit"><input type="submit" value="Submit" /></td>
+						</tr>
+
+						<!-- <tr>
+                            <td>
+                                <img src="jisooPin.png" alt="jisoo img" class="jisoo_img"/>
+                                <p id="1" >Jisoo</p>
+                            </td>
+                        </tr> -->
+					</table>
+				</form>
+			</div>
+		</main>
+	</body>
+	<script src="lab2.js"></script>
+</html>

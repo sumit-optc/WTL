@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>Header</header>
+
+<head>
+    <title>HTML Lab 1</title>
+    <link rel="stylesheet" href="lab1.css">
+</head>
+
+<body>
+    
+    <nav>
+        <a href="/html" target="_blank" id="id1-test">Menu 1</a> |
+        <a href="/css/" target="_blank">Menu 2</a> |
+        <a href="/js/" target="_blank">Menu 3</a> |
+        <a href="/python/" target="_blank">Menu 4</a>
+    </nav>
+
+    <section>
+        <p>this is a section</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JfVOs4VSpmA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section><br />
+    <form action="second.html" name="myForm" onsubmit="return(validate())">
+
+        <lable for="fname" class="fname">First Name: </lable><br />
+        <input type="text" name="fname" id="Name" placeholder="Enter your First Name here"
+            ><br /><br />
+        <lable for="lname">Last Name: </lable><br />
+        <input type="text" name="lname" id="lname" placeholder="Enter your Last Name here" disabled><br /><br />
+        <input type="radio" name="fav_lang" id="html"> <label for="html">HTML</label><br />
+        <input type="checkbox" name="fav_lang" id="JS"> <label for="JS">JS</label><br /><br />
+        <label for="username">Username: </label> <input type="email" name="username" id="EMail"><br /><br />
+        <div></div>
+        <label for="password">Password: </label> <input type="password" name="password" id="password"><br /><br />
+        <input type="file" name="file" id="file"><br /><br />
+        <input type="button" value="Button" onclick="alert('Hi')"><br /><br />
+        <label for="color">Color: </label>
+        <input type="color" id="color" name="color"><br /><br />
+
+
+        <input type="reset" value="Reset"><br /><br />
+        <input type="submit" value="Submit">
+
+
+    </form>
+
+</body>
+
+<footer>footer</footer>
+
+</html>

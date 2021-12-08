@@ -1,0 +1,43 @@
+body {
+  background-color: steelblue;
+}
+
+nav {
+  background-color: lightcoral;
+}
+
+.form_container {
+  margin-top: 100px;
+}
+
+table {
+  background: darkseagreen;
+}
+
+table,
+td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 7px;
+  text-align: left;
+}
+
+td.submit,
+td.reset {
+  text-align: center;
+}
+
+input.submit {
+  margin-left: 100px;
+}
+
+input.reset {
+  margin-right: 1000px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}

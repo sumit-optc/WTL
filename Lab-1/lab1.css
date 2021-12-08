@@ -1,0 +1,60 @@
+body {
+  background-color: green;
+}
+
+header {
+  color: blue;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+footer {
+  color: lightgrey;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: right;
+}
+
+section {
+  background-color: red;
+}
+
+section p {
+  color: yellow;
+}
+
+nav {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+.fname {
+  color: aquamarine;
+}
+
+a:link {
+  color: cornflowerblue;
+}
+
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: gray;
+}
+
+div + label {
+  color: blueviolet;
+}
+
+#id1-test {
+  color: tomato;
+}
